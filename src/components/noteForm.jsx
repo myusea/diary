@@ -9,7 +9,7 @@ export const NoteForm = () => {
   const [details, setContent] = useState("");
   const [mood, setMood] = useState("");
 
-  const moodOptions = ["🐚", "🌊", "⭐", "🪸"];
+  const moodOptions = ["🔥", "💗", "⭐", "💧"];
 
   async function handleCreateData() {
     await fetch("https://v1.appbackend.io/v1/rows/BG88mQ6xVSe5", {
@@ -27,7 +27,7 @@ export const NoteForm = () => {
   }
 
   return (
-    <div className="space-y-4 mb-8 max-w-xl mx-auto">
+    <div className="space-y-4 mb-8">
       <textarea 
         value={name} 
         onChange={(e) => setDate(e.target.value)} 
