@@ -31,7 +31,7 @@ export const NoteForm = () => {
       <textarea 
         value={name} 
         onChange={(e) => setDate(e.target.value)} 
-        placeholder="Enter Title" 
+        placeholder="Enter Date" 
         className="w-full p-3 border border-gray-300 rounded-lg bg-white text-gray-800 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
       ></textarea>
       <textarea 
